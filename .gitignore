@@ -1,0 +1,5 @@
+#editor files
+.idea
+
+#python cache
+__pycache__
