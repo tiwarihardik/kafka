@@ -9,8 +9,7 @@ class Producer:
 
 # Example usage
 if __name__ == "__main__":
-    while True:
-        broker = Broker()
-        producer = Producer(broker)
-        producer.send_message("First Message")
-        producer.send_message("Second Message")
+    broker = Broker()
+    producer = Producer(broker)
+    producer.send_message("First Message")
+    producer.send_message("Second Message")
